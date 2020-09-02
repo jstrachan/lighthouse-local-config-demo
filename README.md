@@ -1,3 +1,1 @@
 # lighthouse-local-config-demo
-
-
