@@ -9,7 +9,3 @@ spec:
     trigger: "/lint"
     rerunCommand: "/relint"
     sourcePath: "lint.yaml"
-  branchProtection:
-    contexts:
-    - lint
-

@@ -13,7 +13,4 @@ spec:
   - name: release
     context: "release"
     sourcePath: "release.yaml"
-  branchProtection:
-    contexts:
-    - test
 
