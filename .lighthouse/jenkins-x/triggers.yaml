@@ -1,5 +1,5 @@
 apiVersion: config.lighthouse.jenkins-x.io/v1alpha1
-kind: RepositoryConfig
+kind: TriggerConfig
 spec:
   presubmits:
   - name: test
