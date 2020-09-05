@@ -3,6 +3,7 @@ kind: TriggerConfig
 spec:
   presubmits:
   - name: lint
+    agent: tekton-pipeline
     context: "lint"
     alwaysRun: true
     optional: false

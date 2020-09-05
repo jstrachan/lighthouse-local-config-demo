@@ -3,6 +3,7 @@ kind: TriggerConfig
 spec:
   presubmits:
   - name: test
+    agent: tekton-pipeline
     context: "test"
     alwaysRun: true
     optional: false
@@ -11,6 +12,7 @@ spec:
     sourcePath: "test.yaml"
   postsubmits:
   - name: release
+    agent: tekton-pipeline
     context: "release"
     sourcePath: "release.yaml"
 
